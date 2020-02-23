@@ -33,7 +33,7 @@ sopranonotes = \relative c'' {
     a1. | gis1.\fermata \bar "|."
 }
 sopranowords = \lyricmode {
-	sub __ tu -- um prae -- si -- di -- um con -- % bar 12
+	Sub __ tu -- um prae -- si -- di -- um con -- % bar 12
     fu -- gi -- mus, Sanc -- ta De -- i Sanc -- ta De -- i % bar 22
     Ge -- nit -- rix; ne ne des -- pi -- ci -- as nos -- tras %bar 29
     de -- pre -- ca -- ti -- o -- nes ne ne des -- pi -- ci -- as %bar 36
@@ -67,11 +67,11 @@ altonotes = \relative c' {
     e1. | e1.\fermata |
 }
 altowords = \lyricmode {
-	sub __ tu -- um prae -- si -- di -- um prae -- % bar 7 
+	Sub __ tu -- um prae -- si -- di -- um prae -- % bar 7 
     si -- di -- um con -- fu -- gi -- % bar 15
     mus con -- fu -- gi -- mus Sanc -- ta De -- i Ge -- nit -- rix; %bar 24 
     nos -- tras de -- pre -- ca -- ti -- o -- nes ne %bar30
-    ne des -- pi -- ci -- as nos -- tres de -- pre -- ca -- ti -- o -- %bar36
+    ne des -- pi -- ci -- as nos -- tras de -- pre -- ca -- ti -- o -- %bar36
     nes ne ne des -- pi -- ci -- as __ in ne -- ces -- si -- ta -- ti -- bus %b46
     in ne -- ces -- si -- ta -- ti -- bus nos -- tris %Taktwechsel
     Sed a pe -- ri -- cu -- lis cun -- ctis li -- be -- ra nos sem -- per %b57
@@ -103,10 +103,10 @@ tenornotes = \relative c' {
     c1. | b1.\fermata |
 }
 tenorwords = \lyricmode {
-	sub __ tu -- um praes -- si -- di -- um prae -- si -- di -- um %bar9 
+	Sub __ tu -- um praes -- si -- di -- um prae -- si -- di -- um %bar9 
     con -- fu -- gi -- mus con -- fu -- gi -- mus %bar 19
     Sanc -- ta De -- i Ge -- nit -- rix; nos -- tras de -- pre -- ca -- %bar28
-    ti -- o -- nes ne ne des -- pi -- ci -- as -- ne des -- pi -- ci -- as %b41
+    ti -- o -- nes ne ne des -- pi -- ci -- as ne des -- pi -- ci -- as %b41
     in __ ne -- ces -- si -- ta -- ti -- bus __ nos -- tris % Taktwechsel
     Sed a pe -- ri -- cu -- lis cun -- ctis li -- be -- ra nos sem -- per %b57
     sem -- per sem -- per sem -- per sem -- per li -- be -- ra nos
@@ -132,15 +132,15 @@ bassnotes = \relative c {
     e1) | a,1 | 
     \time 3/2
     a'2 a2 a2 | d,2. d4 d2 | g1 g2 |
-    c2. c4 c4 c4 | c1 c2 | r2 c2 b2 | c1 g2 | r2 a2 gis2 |
+    c2. c4 b4 b4 | c1 c2 | r2 c2 b2 | c1 g2 | r2 a2 gis2 |
     a1 e2 | r2 f2 e2 | f1 c2 | r1 r2 | r1 r2 |
     g'2. g4 f4 e4 | d2 d2 d2 | a'1 bes2 ~ | bes2 a1 | d,2 r1 | 
     d2. d4 c4 b4 | a2 a2 a2 | e'1 f2 ~ | f2 e1 | a,2 a'2 gis2 |
     a1. | e1.\fermata |
 }
 basswords = \lyricmode {
-	sub __ tu -- um prae -- si -- di -- um con -- fu -- gi -- mus %bar 9 
-    con -- fu -- gi -- mus Sanc -- ta De -- i Ge -- nit --rix %bar24
+	Sub __ tu -- um prae -- si -- di -- um con -- fu -- gi -- mus %bar 9 
+    con -- fu -- gi -- mus Sanc -- ta De -- i Ge -- nit -- rix %bar24
     nos -- tras de -- pre -- ca -- ti -- o -- nes %bar30
     ne ne des -- pi -- ci -- as in __ ne -- ces -- si -- ta -- ti -- bus %bar45  
     nos -- tris % Taktwechsel
