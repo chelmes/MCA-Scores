@@ -6,11 +6,11 @@
 global = {
   \key c \major
   \time 2/2
-  % What does this do?
   %\dynamicUp
   % Not working yet
-  %\set Score.currentBarNumber = #1
-  %\set Score.barNumberVisibility = #(every-nth-bar-number-visible 5)
+  \override Score.BarNumber.break-visibility = #end-of-line-invisible
+  \set Score.currentBarNumber = #1
+  \set Score.barNumberVisibility = #(every-nth-bar-number-visible 5)
 }
 sopranonotes = \relative c'' {
 	r1 | r1 | r1 | r1 | r1 |

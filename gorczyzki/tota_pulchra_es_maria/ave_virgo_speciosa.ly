@@ -9,6 +9,7 @@
     title = "Ave Virgo Speciosa"
     }
 
+
 #(set-global-staff-size 17.9297317559)
 \paper {
     paper-width = 21.0\cm
@@ -22,6 +23,10 @@
     \context { \Score
         skipBars = ##t
         autoBeaming = ##f
+        \override BarNumber.break-visibility = #end-of-line-invisible
+        currentBarNumber = #1
+        barNumberVisibility = #(every-nth-bar-number-visible 5)
+
         }
     }
 PartPOneVoiceOne =  \relative f' {
