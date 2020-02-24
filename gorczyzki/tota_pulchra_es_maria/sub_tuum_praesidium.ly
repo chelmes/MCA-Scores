@@ -1,13 +1,12 @@
 \version "2.18.2"
 \header {
-	title = "Sub Tuum Praesidium"
+	title = "Sub tuum praesidium"
 	composer = "Grzegorz Gerwazy Gorczycki"
 }
 global = {
   \key c \major
   \time 2/2
   %\dynamicUp
-  % Not working yet
   \override Score.BarNumber.break-visibility = #end-of-line-invisible
   \set Score.currentBarNumber = #1
   \set Score.barNumberVisibility = #(every-nth-bar-number-visible 5)

@@ -5,8 +5,8 @@
 \header {
     encodingsoftware = "MuseScore 3.4.2"
     encodingdate = "2020-02-20"
-    composer = "Gregor Gervasius Gorcsyczki"
-    title = "Ave Virgo Speciosa"
+    composer ="Grzegorz Gerwaczy Gorczycki" 
+    title = "Ave virgo speciosa"
     }
 
 

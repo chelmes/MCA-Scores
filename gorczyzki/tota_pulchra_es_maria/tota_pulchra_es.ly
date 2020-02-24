@@ -7,9 +7,14 @@
 \include "deutsch.ly"
 \header {
  title="Tota pulchra es Maria"
- composer="Grzegorz Gerwaczy Groczycki"
+ composer="Grzegorz Gerwaczy Gorczycki"
  %instrument="Chorsatz"
  %meter="Tempo "
+}
+global = {
+  \override Score.BarNumber.break-visibility = #end-of-line-invisible
+  \set Score.currentBarNumber = #1
+  \set Score.barNumberVisibility = #(every-nth-bar-number-visible 5)
 }
 %
 sopran = \new Staff {
