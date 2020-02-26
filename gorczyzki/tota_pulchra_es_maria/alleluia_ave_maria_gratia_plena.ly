@@ -71,7 +71,7 @@ PartPOneVoiceOne =  \relative c'' {
     c2 c2 b2 | % 42
     c1 b2 | % 43
     a2 b2 d2 | % 44
-    b1. \bar "||"
+    b1.  \bar "||"
     \time 2/2  r2 c2 | % 46
     d2 e2 | % 47
     a,2 e'2 ~ | % 48
@@ -300,7 +300,7 @@ PartPFourVoiceOne =  \relative a {
     c2 a'2 gis2 | % 42
     a1 e2 | % 43
     c2 d1 | % 44
-    e1. \bar "||"
+    e1.~ \bar "||"
     \time 2/2  e2 r2 | % 46
     R1*3 | % 49
     r2 a2 | \barNumberCheck #50
@@ -325,7 +325,7 @@ PartPFourVoiceOneLyricsOne =  \lyricmode { al -- le -- lu -- ia al -- le
     -- ia al -- le -- lu -- ia be -- ne -- dic -- ta tu in mu -- li -- e
     -- ri -- "bus," in mu -- li -- e -- ri -- "bus," et be -- ne -- dic
     -- tus fruc -- tus ven -- \skip4 tris tu -- \skip4 \skip4 i fruc --
-    tus ven -- tris tu -- \skip4 i \skip4 Al -- le -- lu -- ia al -- le
+    tus ven -- tris tu -- \skip4 i__ Al -- le -- lu -- ia al -- le
     -- lu -- ia al -- le -- lu -- ia al -- le -- lu -- ia al -- le -- lu
     -- ia al -- le -- lu -- ia }
 
