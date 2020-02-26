@@ -334,16 +334,16 @@ PartPFourVoiceOneLyricsOne =  \lyricmode { al -- le -- lu -- ia al -- le
     <<
         \new StaffGroup <<
             \new Staff <<
-                \set Staff.instrumentName = "Soprano"
-                \set Staff.shortInstrumentName = "S."
+                \set Staff.instrumentName = "Cantus"
+                %\set Staff.shortInstrumentName = "S."
                 \context Staff << 
                     \context Voice = "PartPOneVoiceOne" { \PartPOneVoiceOne }
                     \new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricsOne
                     >>
                 >>
             \new Staff <<
-                \set Staff.instrumentName = "Alto"
-                \set Staff.shortInstrumentName = "A."
+                \set Staff.instrumentName = "Altus"
+                %\set Staff.shortInstrumentName = "A."
                 \context Staff << 
                     \context Voice = "PartPTwoVoiceOne" { \PartPTwoVoiceOne }
                     \new Lyrics \lyricsto "PartPTwoVoiceOne" \PartPTwoVoiceOneLyricsOne
@@ -351,15 +351,15 @@ PartPFourVoiceOneLyricsOne =  \lyricmode { al -- le -- lu -- ia al -- le
                 >>
             \new Staff <<
                 \set Staff.instrumentName = "Tenor"
-                \set Staff.shortInstrumentName = "T."
+                %\set Staff.shortInstrumentName = "T."
                 \context Staff << 
                     \context Voice = "PartPThreeVoiceOne" { \PartPThreeVoiceOne }
                     \new Lyrics \lyricsto "PartPThreeVoiceOne" \PartPThreeVoiceOneLyricsOne
                     >>
                 >>
             \new Staff <<
-                \set Staff.instrumentName = "Bass"
-                \set Staff.shortInstrumentName = "B."
+                \set Staff.instrumentName = "Bassus"
+                %\set Staff.shortInstrumentName = "B."
                 \context Staff << 
                     \context Voice = "PartPFourVoiceOne" { \PartPFourVoiceOne }
                     \new Lyrics \lyricsto "PartPFourVoiceOne" \PartPFourVoiceOneLyricsOne
