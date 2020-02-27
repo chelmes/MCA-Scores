@@ -83,7 +83,7 @@ PartPOneVoiceOne =  \relative e'' {
     c2 b2 ~ | % 56
     b2 b2 \break | % 57
     b1 | % 58
-    b1 \bar "||"
+    b1\fermata \bar "||"
     \time 3/2  r2 r2 g2 | \barNumberCheck #60
     fis2. g4 a2 | % 61
     g2. a4 b2 | % 62
@@ -131,7 +131,7 @@ PartPOneVoiceOne =  \relative e'' {
     b2 b4 b4 cis4 cis4 | \barNumberCheck #110
     d2. cis4 b2 | % 111
     a2. a4 d2 | % 112
-    cis2 d2 e2 | % 113
+    cis2 d2 e2 ~ | % 113
     e4 b4 e2 dis2 \break | % 114
     e1. | % 115
     b2 b4 b4 cis4 cis4 | % 116
@@ -142,7 +142,7 @@ PartPOneVoiceOne =  \relative e'' {
     a2. g4 fis2 | % 121
     b2. a4 g2 | % 122
     fis1. | % 123
-    gis1. \bar "||"
+    gis1.\fermata \bar "||"
     \time 2/2  R1*2 | % 126
     r2 e'2 ~ | % 127
     e2 d2 ~ \pageBreak | % 128
@@ -190,10 +190,10 @@ PartPOneVoiceOne =  \relative e'' {
     b2 e2 ~ | % 171
     e2 dis2 | % 172
     e1 ~ | % 173
-    e1 | % 174
+    e1\fermata | % 174
     c2 b2 | % 175
     c1 \break | % 176
-    b1 \bar "|."
+    b1\fermata \bar "|."
     }
 
 PartPOneVoiceOneLyricsOne =  \lyricmode { To -- ta pul -- chra es Ma --
@@ -212,8 +212,8 @@ PartPOneVoiceOneLyricsOne =  \lyricmode { To -- ta pul -- chra es Ma --
     -- a Je -- ru -- sa -- lem tu glo -- \skip4 \skip4 \skip4 \skip4
     \skip4 \skip4 ri -- a Je -- ru -- sa -- lem tu lae -- ti -- \skip4
     \skip4 \skip4 \skip4 ti -- a Is -- ra -- el tu lae -- ti -- \skip4
-    \skip4 \skip4 \skip4 ti -- a lae -- ti -- ti -- a Is -- ra -- el tu
-    ho -- no -- ri -- fi -- cen -- ti -- a po -- pu -- li nos -- \skip4
+    \skip4 \skip4 \skip4 ti -- a lae -- ti -- ti -- a Is -- ra -- el 
+    tu  ho -- no -- ri -- fi -- cen -- ti -- a po -- pu -- li nos -- 
     \skip4 \skip4 \skip4 \skip4 \skip4 tri tu ho -- no -- ri -- fi --
     cen -- ti -- a po -- pu -- li nos -- tri tu ho -- no -- ri -- fi --
     cen -- ti -- a po -- pu -- li nos -- tri Al -- \skip4 le -- \skip4
@@ -243,7 +243,7 @@ PartPTwoVoiceOne =  \relative g' {
     dis2 g2 ~ \pageBreak | % 19
     g2 fis4 e4 | \barNumberCheck #20
     d4 c4 b4 a4 | % 21
-    g2 g'2 | % 22
+    g2 g'2 ~ | % 22
     g4 fis4 g2 | % 23
     e1 | % 24
     dis2 e2 ~ | % 25
@@ -280,7 +280,7 @@ PartPTwoVoiceOne =  \relative g' {
     e4 fis4 g4 a4 | % 56
     fis2 g2 \break | % 57
     fis1 | % 58
-    e1 \bar "||"
+    e1\fermata \bar "||"
     \time 3/2  r2 r2 d2 | \barNumberCheck #60
     d2. e4 fis2 | % 61
     e2. fis4 g2 | % 62
@@ -341,7 +341,7 @@ PartPTwoVoiceOne =  \relative g' {
     cis2. cis4 d2 | % 121
     d2. d4 e2 | % 122
     e1 dis2 | % 123
-    e1. \bar "||"
+    e1.\fermata \bar "||"
     \time 2/2  r2 g2 ~ | % 125
     g2 fis2 ~ | % 126
     fis2 e2 ~ | % 127
@@ -390,17 +390,17 @@ PartPTwoVoiceOne =  \relative g' {
     fis2 e4 fis4 | % 171
     g4 a4 fis2 | % 172
     gis1 ~ | % 173
-    gis1 | % 174
+    gis1\fermata | % 174
     e2 e2 | % 175
     e1 \break | % 176
-    e1 \bar "|."
+    e1\fermata \bar "|."
     }
 
 PartPTwoVoiceOneLyricsOne =  \lyricmode { To -- ta pul -- chra es Ma --
     ri -- \skip4 \skip4 \skip4 \skip4 a pul -- chra pul -- \skip4 \skip4
     \skip4 \skip4 \skip4 \skip4 \skip4 chra pul -- \skip4 chra es Ma --
     ri -- a pul -- \skip4 chra pul -- \skip4 \skip4 \skip4 chra pul --
-    \skip4 chra es Ma -- \skip4 ri -- \skip4 a et ma -- cu -- la non --
+    chra es Ma -- \skip4 ri -- \skip4 a et ma -- cu -- la non --
     est in te in te non est non est non est non est in te et ma -- cu --
     la non est non est et ma -- cu -- la non est non est non est non est
     non \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 est in
@@ -442,7 +442,7 @@ PartPThreeVoiceOne =  \relative b {
     r2 b2 ~ | % 12
     b2 cis2 | % 13
     d1 | % 14
-    d2 a2 | % 15
+    d2 a2 ~ | % 15
     a4 a4 b2 | % 16
     g2 e2 | % 17
     fis1 | % 18
@@ -450,7 +450,7 @@ PartPThreeVoiceOne =  \relative b {
     g2 a2 | \barNumberCheck #20
     b4 a4 b4 c4 | % 21
     d4 e4 d4 c4 | % 22
-    b2 g2 | % 23
+    b2 g2 ~ | % 23
     g4 g4 a2 | % 24
     fis2 g2 | % 25
     fis1 | % 26
@@ -486,7 +486,7 @@ PartPThreeVoiceOne =  \relative b {
     e4 d4 e4 fis4 | % 56
     dis2 e2 ~ \break | % 57
     e2 dis2 | % 58
-    e1 \bar "||"
+    e1\fermata \bar "||"
     \time 3/2  r2 r2 b2 | \barNumberCheck #60
     a2. a4 d2 | % 61
     b2. b4 e2 | % 62
@@ -531,7 +531,7 @@ PartPThreeVoiceOne =  \relative b {
     b'2 b4 b4 cis4 cis4 | % 104
     d2. cis4 b2 | % 105
     a2. a4 d2 | % 106
-    cis2 d2 e2 | % 107
+    cis2 d2 e2 ~ | % 107
     e4 b4 e2 dis2 \pageBreak | % 108
     e1 d2 | % 109
     g,1 a2 | \barNumberCheck #110
@@ -548,7 +548,7 @@ PartPThreeVoiceOne =  \relative b {
     cis2. b4 a2 | % 121
     d2. cis4 b2 | % 122
     b1. | % 123
-    b1. \bar "||"
+    b1.\fermata \bar "||"
     \time 2/2  r2 e2 ~ | % 125
     e2 d2 ~ | % 126
     d2 c2 ~ | % 127
@@ -558,14 +558,14 @@ PartPThreeVoiceOne =  \relative b {
     e2 fis2 | % 131
     a,2 b2 | % 132
     cis2 d2 ~ | % 133
-    d2 c2 ~ | % 134
+    d2 c!2 ~ | % 134
     c2 b2 | % 135
     a2 d2 | % 136
     d1 | % 137
     b2 cis2 | % 138
     dis2 e2 | % 139
     g,2 a2 \break | \barNumberCheck #140
-    b2 c2 | % 141
+    b2 c!2 | % 141
     a1 | % 142
     e1 | % 143
     b'1 | % 144
@@ -578,7 +578,7 @@ PartPThreeVoiceOne =  \relative b {
     cis1 \break | % 151
     b1 | % 152
     R1 | % 153
-    c2 d2 | % 154
+    c!2 d2 | % 154
     e2 fis2 | % 155
     a,2 b2 | % 156
     a2 fis2 | % 157
@@ -590,7 +590,7 @@ PartPThreeVoiceOne =  \relative b {
     e2 a2 \pageBreak | % 163
     fis1 | % 164
     gis2 r2 | % 165
-    g2 a2 | % 166
+    g!2 a2 | % 166
     b2 c2 | % 167
     a2 d2 | % 168
     b2 e2 | % 169
@@ -598,22 +598,25 @@ PartPThreeVoiceOne =  \relative b {
     b2 g2 | % 171
     e2 b'2 | % 172
     b1 ~ | % 173
-    b1 | % 174
+    b1\fermata | % 174
     a2 b2 | % 175
     a1 \break | % 176
-    gis1 \bar "|."
+    gis1\fermata \bar "|."
     }
 
 PartPThreeVoiceOneLyricsOne =  \lyricmode { To -- ta pul -- chra es Ma
     -- ri -- \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 a pul --
-    chra pul -- chra pul -- \skip4 chra es Ma -- \skip4 ri -- a pul --
+    chra 
+    % S. 36
+    pul -- chra pul --  chra es Ma -- \skip4 ri -- a pul --
     chra pul -- \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 chra
-    pul -- \skip4 chra es Ma -- \skip4 ri -- a et ma -- cu -- la non --
+    pul --  chra es Ma -- \skip4 ri -- a et ma -- cu -- la non --
     est -- non -- est in te non est in te et ma -- cu -- la non est in
     te non est non est non est in te et ma -- cu -- la non -- est non
-    est in te non -- \skip4 \skip4 \skip4 \skip4 est -- in te Tu glo --
-    ri -- a glo -- ri -- a Je -- ru -- sa -- lem tu glo -- ri -- a tu
-    glo -- ri -- a Je -- ru -- sa tu glo -- \skip4 \skip4 \skip4 \skip4
+    est in te non -- \skip4 \skip4 \skip4 \skip4 est -- in te 
+    Tu glo --
+    ri -- a glo -- ri -- a Je -- ru -- sa -- lem tu glo -- ri -- a 
+    glo -- ri -- a Je -- ru -- sa -- lem tu glo -- \skip4 \skip4 \skip4 \skip4
     \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4
     \skip4 \skip4 \skip4 \skip4 \skip4 ri -- a glo -- ri -- a glo -- ri
     -- a Je -- ru -- sa -- lem tu glo -- \skip4 \skip4 \skip4 \skip4
@@ -621,9 +624,9 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode { To -- ta pul -- chra es Ma
     -- ri -- a Je -- ru -- sa -- lem tu lae -- ti -- \skip4 \skip4
     \skip4 \skip4 ti -- a lae -- ti -- \skip4 \skip4 \skip4 \skip4 ti --
     a tu lae -- ti -- \skip4 \skip4 \skip4 \skip4 ti -- a Is -- ra -- el
-    \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4
-    \skip4 \skip4 \skip4 tu ho -- no -- ri -- fi -- cen -- ti -- a po --
-    pu -- li nos -- \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 tri tu ad
+    tu lae -- ti -- _ _ _ _ ti -- a Is -- ra -- el
+    tu ho -- no -- ri -- fi -- cen -- ti -- a po --
+    pu -- li nos -- \skip4 \skip4 \skip4 \skip4 \skip4 tri tu ad
     -- vo -- ca -- ta pec -- ca -- to -- rum o Ma -- ri -- a ho -- no --
     ri -- fi -- cen -- ti -- a po -- pu -- li \skip4 nos -- \skip4 tri
     tu ho -- no -- ri -- fi -- cen -- ti -- a po -- pu -- li nos -- tri
@@ -650,7 +653,7 @@ PartPFourVoiceOne =  \relative e {
     r2 e2 ~ \pageBreak | % 19
     e2 fis2 | \barNumberCheck #20
     g1 | % 21
-    g2 d2 | % 22
+    g2 d2 ~ | % 22
     d4 d4 e2 | % 23
     c2 a2 | % 24
     b1 ~ | % 25
@@ -681,7 +684,7 @@ PartPFourVoiceOne =  \relative e {
     a2 g2 | % 56
     b1 \break | % 57
     b,1 | % 58
-    e1 \bar "||"
+    e1\fermata \bar "||"
     \time 3/2  r2 r2 g2 | \barNumberCheck #60
     d2. d4 d2 | % 61
     e2. e4 e2 | % 62
@@ -741,7 +744,7 @@ PartPFourVoiceOne =  \relative e {
     a2. a4 d2 | % 121
     b2. b4 e2 | % 122
     b1. | % 123
-    e1. \bar "||"
+    e1.\fermata \bar "||"
     \time 2/2  R1*3 | % 127
     r2 b'2 ~ \pageBreak | % 128
     b2 a2 ~ | % 129
@@ -783,17 +786,19 @@ PartPFourVoiceOne =  \relative e {
     b1 | % 171
     b1 | % 172
     e1 ~ | % 173
-    e1 | % 174
+    e1\fermata | % 174
     a2 gis2 | % 175
     a1 \break | % 176
-    e1 \bar "|."
+    e1\fermata \bar "|."
     }
 
 PartPFourVoiceOneLyricsOne =  \lyricmode { To -- ta pul -- chra es Ma --
-    \skip4 ri -- a pul -- chra pul -- chra pul -- chra pul -- chra pul
-    -- \skip4 chra es Ma -- \skip4 ri -- a et ma -- cu -- la non est non
+    \skip4 ri -- a pul -- chra pul -- chra 
+    % S. 36 
+    pul -- chra pul -- chra pul
+    --  chra es Ma -- \skip4 ri -- a et ma -- cu -- la non est non
     est in te non est non est non est in te et ma -- cu -- la non est
-    non est est est in \skip4 te Tu glo -- ri -- a glo -- ri -- a Je --
+    non est non est in \skip4 te Tu glo -- ri -- a glo -- ri -- a Je --
     ru -- sa -- lem tu glo -- ri -- a glo -- ri -- a Je -- ru -- sa --
     lem tu glo -- ri -- a Je -- ru -- sa -- lem tu glo -- \skip4 \skip4
     \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4
@@ -854,8 +859,13 @@ PartPFourVoiceOneLyricsOne =  \lyricmode { To -- ta pul -- chra es Ma --
             >>
         
         >>
-    \layout {}
+   \layout {
+    \context {
+      \Score
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
+    }
+   }
     % To create MIDI output, uncomment the following line:
     %  \midi {}
-    }
+ }
 
