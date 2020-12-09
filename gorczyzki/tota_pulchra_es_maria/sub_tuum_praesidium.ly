@@ -157,7 +157,7 @@ basswords = \lyricmode {
         \global
         \sopranonotes
       >>
-      \lyricsto "soprano" \new Lyrics \sopranowords
+      \new Lyrics \lyricsto "soprano" \sopranowords
     >>
     \new Staff <<
 	 \set Staff.instrumentName = #"Altus"
@@ -165,7 +165,7 @@ basswords = \lyricmode {
         \global
         \altonotes
       >>
-      \lyricsto "alto" \new Lyrics \altowords
+      \new Lyrics \lyricsto "alto" \altowords
     >>
     \new Staff <<
 	 \set Staff.instrumentName = #"Tenor"
@@ -173,7 +173,7 @@ basswords = \lyricmode {
         \global
         \tenornotes
       >>
-      \lyricsto "tenor" \new Lyrics \tenorwords
+      \new Lyrics \lyricsto "tenor" \tenorwords
     >>
     \new Staff <<
 	 \set Staff.instrumentName = #"Bassus"
@@ -181,7 +181,7 @@ basswords = \lyricmode {
         \global
         \bassnotes
       >>
-      \lyricsto "bass" \new Lyrics \basswords
+      \new Lyrics \lyricsto "bass" \basswords
     >>
   >>
 }
