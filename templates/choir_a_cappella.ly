@@ -1,11 +1,11 @@
 \version "2.18.2"
 \header {
-	title = % Title as a text string
-	composer = % Composer as a text string
+	title = "" % Title as a text string
+	composer = "" % Composer as a text string
 }
 global = {
-  \key % Global key of the piece, like: c \major
-  \time % time of the piece: e.g. 4/4
+  \key c \major % Global key of the piece, like: c \major
+  \time 4/4  % time of the piece: e.g. 4/4
 }
 
 % Input music and lyrics into according environments
@@ -68,4 +68,10 @@ basswords = \lyricmode {
       \lyricsto "bass" \new Lyrics \basswords
     >>
   >>
+
+
+  \layout {} 
+  \midi {\tempo 2 = 80 }
+
+
 }
