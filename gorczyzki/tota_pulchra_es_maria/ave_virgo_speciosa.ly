@@ -805,33 +805,33 @@ PartPFourVoiceTwo =  \relative c' {
                 \set Staff.instrumentName = "Cantus"
                 %\set Staff.shortInstrumentName = "S."
                 \context Staff << 
-                    \context Voice = "PartPOneVoiceOne" { \PartPOneVoiceOne }
-                    \new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricsOne
+                    \context Voice = "Cantus" { \PartPOneVoiceOne }
+                    \new Lyrics \lyricsto "Cantus" \PartPOneVoiceOneLyricsOne
                     >>
                 >>
             \new Staff <<
                 \set Staff.instrumentName = "Altus"
                 %\set Staff.shortInstrumentName = "A."
                 \context Staff << 
-                    \context Voice = "PartPTwoVoiceOne" { \PartPTwoVoiceOne }
-                    \new Lyrics \lyricsto "PartPTwoVoiceOne" \PartPTwoVoiceOneLyricsOne
+                    \context Voice = "Altus" { \PartPTwoVoiceOne }
+                    \new Lyrics \lyricsto "Altus" \PartPTwoVoiceOneLyricsOne
                     >>
                 >>
             \new Staff <<
                 \set Staff.instrumentName = "Tenor"
                 %\set Staff.shortInstrumentName = "T."
                 \context Staff << 
-                    \context Voice = "PartPThreeVoiceOne" { \PartPThreeVoiceOne }
-                    \new Lyrics \lyricsto "PartPThreeVoiceOne" \PartPThreeVoiceOneLyricsOne
+                    \context Voice = "Tenor" { \PartPThreeVoiceOne }
+                    \new Lyrics \lyricsto "Tenor" \PartPThreeVoiceOneLyricsOne
                     >>
                 >>
             \new Staff <<
                 \set Staff.instrumentName = "Bassus"
                 %\set Staff.shortInstrumentName = "B."
                 \context Staff << 
-                    \context Voice = "PartPFourVoiceOne" { \voiceOne \PartPFourVoiceOne }
-                    \new Lyrics \lyricsto "PartPFourVoiceOne" \PartPFourVoiceOneLyricsOne
-                    \context Voice = "PartPFourVoiceTwo" { \voiceTwo \PartPFourVoiceTwo }
+                    \context Voice = "Bassus" { \voiceOne \PartPFourVoiceOne }
+                    \new Lyrics \lyricsto "Bassus" \PartPFourVoiceOneLyricsOne
+                    \context Voice = "Bassus2" { \voiceTwo \PartPFourVoiceTwo }
                     >>
                 >>
             
@@ -840,6 +840,6 @@ PartPFourVoiceTwo =  \relative c' {
         >>
     \layout {}
     % To create MIDI output, uncomment the following line:
-    %  \midi {}
-    }
+    \midi{\tempo 2 = 80} 
+}
 

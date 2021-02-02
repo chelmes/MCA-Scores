@@ -184,4 +184,6 @@ basswords = \lyricmode {
       \new Lyrics \lyricsto "bass" \basswords
     >>
   >>
+  \layout{}
+  \midi{\tempo 2 = 80}
 }

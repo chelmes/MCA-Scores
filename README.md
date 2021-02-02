@@ -7,4 +7,5 @@ A tutorial on using lilypond is coming up ...
 
 ## Folder Structure
 The folder structure is as follows:
-Source files are ordered by ```<composer>/<opus>/<lilypond_source(s)>``` Compiled pdfs are placed inside ```Noten_PDFs_fertig/<composer>/<opus>/*.pdf``` after revision. Thus duplicates should be avoided.
+Source files are ordered by ```<composer>/<opus>/<lilypond_source(s)>``` Compiled pdfs are placed inside ```Noten_PDFs_fertig/<composer>/<opus>/*.pdf``` after revision. Compiled MIDI files go into ```Noten_MIDIs_fertig/<composer>/<opus>/*.pdf```.
+Ths duplicates should be avoided.
